@@ -52,8 +52,24 @@ li {
 }
 .main-qipper-text-flex {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
 }
 .text-vs-btn {
   display: flex;
+  align-items: center;
   gap: 20px;
+  padding-bottom: 20px;
+}
+.text-vs-btn button {
+  width: 150px;
+  height: 70px;
+  background-color: rgba(235, 87, 87, 1);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.main-qipper-text-flex h1 {
+  font-size: 90px;
 }
